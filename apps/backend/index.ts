@@ -30,7 +30,7 @@ app.post("/user",async(req,res)=>{
         res.status(201).json(user);
     })
     .catch(err=>{
-        res.status(500).json({error: "Internal Server Error"});
+        res.status(500).json({error: "Internal  Error"});
     })
 })
 
