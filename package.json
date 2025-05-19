@@ -9,8 +9,8 @@
     "check-types": "turbo run check-types",
     "db:generate": "cd packages/db && npx prisma generate && cd ../..",
     "start:web":"cd apps/web && npm run start",
-    "start:backend":"cd apps/backend && npm run start",
-    "start:ws":"cd apps/ws && npm run start"
+    "start:backend":"cd apps/backend && npm run index.ts",
+    "start:ws":"cd apps/ws && npm run index.ts"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
