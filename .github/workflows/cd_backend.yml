@@ -21,4 +21,4 @@ jobs:
           context: .
           file: ./docker/dockerfile.backend
           push: true
-          tags: sanjeev/todo-app-backend:${{ github.sha }}
+          tags: sanjeev12357/todo-app-backend:${{ github.sha }}
